@@ -6,10 +6,10 @@ import org.rspeer.script.task.TaskScript;
 public class Main extends TaskScript {
 
     /**
-     * Start a Mine and Smith Task
+     * Start a Mine, Smelt and Smith Task
      */
     @Override
     public void onStart() {
-        submit(new Mine(), new Smith());
+        submit(new Mine(), new Smelt(), new Smith());
     }
 }
