@@ -10,6 +10,6 @@ public class Main extends TaskScript {
      */
     @Override
     public void onStart() {
-        submit(new Mine(), new Smelt(), new Smith());
+        submit(new Mine(), new WalkToFurnace(), new Smelt(), new WalkToAnvilVarrok(), new Smith());
     }
 }

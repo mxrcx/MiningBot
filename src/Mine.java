@@ -17,7 +17,7 @@ public class Mine extends Task {
         return SceneObjects.getNearest(nearest -> nearest.getName().equals("Rocks") && nearest.isPositionInteractable()) != null
                 && Players.getLocal().getTarget() == null
                 && !Inventory.isFull()
-                && Inventory.contains("Bronze pickaxe");
+                && Inventory.contains("Iron pickaxe");
     }
 
     /**
